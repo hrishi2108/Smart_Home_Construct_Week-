@@ -1,0 +1,89 @@
+.main-dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-image: url('https://thearchitecturedesigns.com/wp-content/uploads/2020/07/lavish-home-interior-6-1024x768.jpg'); /* Add your image URL here */
+    background-size: cover; /* Ensures the image covers the whole area */
+    background-position: center center; /* Centers the image */
+    min-height: 100vh;
+  }
+  
+header {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 40px;
+    padding: 2rem;
+    background-color: #4a6fa5;
+  }
+  
+  header h1 {
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .content h1 {
+    font-size: 28px;
+    color: #4a6fa5;
+    margin-bottom: 10px;
+  }
+.content {
+  max-width: 50%;
+}
+
+.content h1 {
+  font-size: 42px;
+  color: #4a6fa5;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.content button {
+  background-color: #4a6fa5;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+  background-color: #113f6f;
+}
+
+.image img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .main-dashboard {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content,
+  .image {
+    max-width: 100%;
+  }
+
+  .content h1 {
+    font-size: 32px;
+  }
+
+  .image img {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,39 @@
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    margin-bottom: 30px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .tabs button {
+    background: none;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .tabs button.active {
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid #4a6fa5;
+  }
+  
+  .dashboard-content {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 500px;
+  }
